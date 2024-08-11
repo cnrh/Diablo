@@ -1,0 +1,26 @@
+Base idea:
+    Your npc spawns in at the normal 0,0 to which it has a camera as a bat that follows it
+    The bat follows via. everytime you click your cursor in the map it'll teleport to the npc,
+        while it is pathfinding to the clicked spot.
+    The player rides the bat AND spectates it.
+    A cursor spawns as a certain entity (not decided/just make it a snowball)
+        The cursor moves based on player rotation packet
+
+    There are bases with npcs
+        when talking to an npc you look at it and it does dialogue
+        how dialogue works is tbd
+
+    There are teleport pads that u can click and view a map to teleport to.
+        Would be cool to make it show a map with a seperate cursor that you can hover over certain things to click to teleport
+        Or just make it a gui
+
+    Make the default spawn a base camp with a teleport pad in the middle that lights up when you hover over it with your cursor
+        ex. when hovering, instead of selector being a shulker box at the block, its a interaction thats the size of the teleport pad
+
+    Make the player display name hidden and show seperate armor stand information
+
+    Make it so when you hover over another npc they start glowing and u click to view their info
+
+    Make it so when you join/leave it broadcasts join leave messages
+
+    Import into minehut and test
